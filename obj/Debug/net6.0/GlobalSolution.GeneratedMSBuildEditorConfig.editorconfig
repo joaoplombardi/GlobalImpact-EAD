@@ -1,0 +1,108 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = GlobalSolution
+build_property.RootNamespace = GlobalSolution
+build_property.ProjectDir = C:\Users\Joao\source\repos\GlobalSolution\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Joao\source\repos\GlobalSolution
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xIb21lXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xIb21lXFByaXZhY3kuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/Parceiro/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xQYXJjZWlyb1xDYWRhc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/Parceiro/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xQYXJjZWlyb1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/Parceiro/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xQYXJjZWlyb1xfRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/PontoDeDistribuicao/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xQb250b0RlRGlzdHJpYnVpY2FvXENhZGFzdHJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/PontoDeDistribuicao/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xQb250b0RlRGlzdHJpYnVpY2FvXF9Gb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/Produtos/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xQcm9kdXRvc1xDYWRhc3RyYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/Produtos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xQcm9kdXRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/Produtos/_Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xQcm9kdXRvc1xfRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/Produto/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xQcm9kdXRvXGluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xTaGFyZWRcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xTaGFyZWRcX0xheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xTaGFyZWRcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/ConnectAll/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q29ubmVjdEFsbFxWaWV3c1xfVmlld1N0YXJ0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Joao/source/repos/GlobalSolution/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-l0poiuk1wj
