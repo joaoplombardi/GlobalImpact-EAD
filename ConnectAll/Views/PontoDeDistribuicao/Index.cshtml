@@ -1,0 +1,70 @@
+﻿@using GlobalImpact.Models
+@model IList<PontoDeDistribuicao>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<a asp-action="cadastrar" asp-controller="produtos" class="btn btn-sm btn-primary">Adicionar um produto</a>
+<hr />
+@foreach(var pontos in @Model){
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+        @pontos.Nome
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <p>Endereço: @pontos.Endereco</p>
+
+        <p>Estoque</p>
+
+        <table class="table">
+            <tr>
+                <th>Nome</th>
+                <th>Data de Validade</th>
+                <th>Quantidade</th>
+                <th>Ações</th>
+            </tr>
+            @foreach (var item in pontos.Estoque)
+            {
+                <tr>
+                    <td>@item.Nome</td>
+                    <td>@item.DataValidade.ToShortDateString()</td>
+                    <td>@item.Quantidade</td>
+                    <td>                
+                        <a asp-action="editar" asp-controller="produtos" asp-route-id="@item.ProdutoId" class="btn btn-sm btn-dark">Editar</a>
+                        <button onclick="idProduto.value = @item.ProdutoId" type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#exampleModal">
+                            Remover
+                        </button>
+                    </td>
+                </tr>
+            }
+        </table>
+      </div>
+    </div>
+  </div>
+  </div>
+  }
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Confirmação</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                Deseja realmente apagar o Produto? Atenção, está ação é irreversível!
+            </div>
+            <div class="modal-footer">
+                <form asp-action="remover" asp-controller="produtos">
+                    <input type="hidden" name="id" id="idProduto" />
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+                    <button type="submit" class="btn btn-danger">Sim</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

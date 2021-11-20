@@ -43,7 +43,7 @@ namespace ConnectAll.Controllers
         [HttpGet]
         public IActionResult Cadastrar()
         {
-            CarregarParceiros();
+            //CarregarParceiros();
             CarregarPonto();
             return View();
         }
@@ -60,7 +60,7 @@ namespace ConnectAll.Controllers
         [HttpGet]
         public IActionResult Editar(int id)
         {
-            CarregarParceiros();
+            //CarregarParceiros();
             CarregarPonto();
             var produto = _produtoRepository.BuscarPorId(id);
             return View(produto);

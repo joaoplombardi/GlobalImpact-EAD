@@ -16,7 +16,7 @@ namespace ConnectAll.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(_pontoDeDistribuicaoRepository.Listar());
         }
 
         [HttpGet]

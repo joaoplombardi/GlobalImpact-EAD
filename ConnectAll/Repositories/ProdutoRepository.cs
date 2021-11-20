@@ -22,8 +22,8 @@ namespace ConnectAll.Repositories
 
         public void Cadastrar(Produto produto)
         {
-            var aux = _context.Produtos.Count();
-            produto.ProdutoId = aux + 1;
+            //var aux = _context.Produtos.Count();
+            //produto.ProdutoId = aux + 1;
             _context.Produtos.Add(produto);
         }
 
@@ -40,9 +40,9 @@ namespace ConnectAll.Repositories
 
         public void Salvar()
         {
-            _context.Database.ExecuteSqlCommand("SET IDENTITY_INSERT GlobalImpactDB.tb_produtos ON;");
+            _context.Database.ExecuteSqlCommand("SET IDENTITY_INSERT dbo.tb_produto ON;");
             _context.SaveChanges();
-            _context.Database.ExecuteSqlCommand("SET IDENTITY_INSERT tb_ponto_distribuicao OFF;");
+            _context.Database.ExecuteSqlCommand("SET IDENTITY_INSERT dbo.tb_produto OFF;");
         }
 
         public Produto BuscarPorId(int id)

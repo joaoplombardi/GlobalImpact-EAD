@@ -3,8 +3,12 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">Do Not Waste Food</h1>
+    <p class="text-center">Muitos alimentos que estão estéticamente não muito agradáveis ou que seriam levados à uma área de descarte não são aproveitados no meio dos comércios</p>
+    <p class="text-center">Nossa solução propoem uma parceria entre distribuidoras/parceiros com os postos de distribuição. Para que estes alimentos possam ser distribuidos para familias que estão em uma situação delicada e necessitam dessa ajuda</p>
     <mensagem texto="@TempData["msg"]"></mensagem>
-    <a asp-action="cadastrar" asp-controller="produtos" class="card-link">Produtos</a>
+    <a asp-action="cadastrar" asp-controller="produtos" class="card-link">Cadastrar Produtos</a>
+    <a asp-action="cadastrar" asp-controller="parceiro" class="card-link">Cadastrar Parceiros</a>
+    <a asp-action="cadastrar" asp-controller="pontodedistribuicao" class="card-link">Cadastrar Ponto de distribuição</a>
+    <a asp-action="Index" asp-controller="pontodedistribuicao" class="card-link">Ver Pontos de distribuição</a>
 </div>
